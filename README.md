@@ -1,7 +1,9 @@
 # Undergraduate
 Technical Skills: Python, SQL, Spark, Java, R, Databricks, PowerBI, Tableau
 ## Education
-- B.S. Operations Research and Engineering | Cornell University (_May 2026_)								       		
+| Degree                                | Institution             | Graduation |
+|---------------------------------------|--------------------------|-------------|
+| B.S. Operations Research and Engineering | Cornell University       | *May 2026*  |
 
 ## Work Experience
 **Incoming Software Engineering Intern, Data Lake team @ Bank of America (_June 2025 - August 2025_)**
@@ -19,7 +21,7 @@ Technical Skills: Python, SQL, Spark, Java, R, Databricks, PowerBI, Tableau
 ## Projects
 
 ### Research
-[Git](https://github.com/AbelG13/Queueing-Research)
+[Repository (Demo)](https://github.com/AbelG13/Queueing-Research)
 - Developed a simulation in Python to model queueing behavior under the processor-sharing discipline, a scheduling method where all jobs share service capacity equally. This model is designed to reflect behavior in high-throughput environments such as modern data centers and cloud computing systems. Adapting the simulation to include more realistic dynamics, such as infection spread and customer abandonment. These additions will provide insight into how resource contention, failure propagation, and system bottlenecks emerge under load.
 
 ### Modeling Gender Disparities in Corporate Structures
@@ -27,7 +29,7 @@ Technical Skills: Python, SQL, Spark, Java, R, Databricks, PowerBI, Tableau
 - Co-authored a simulation study analyzing how organizational structure influences gender equity in the workplace. Developed continuous-time Markov chain (CTMC) models of corporate hierarchies under vertical and horizontal structures, embedding homophily-driven promotion bias. Implemented the simulations in Python and conducted 1000+ runs per structure to study long-term effects on gender representation. Key findings included that vertical structures amplify gender disparities more severely due to compounded promotions, while horizontal structures reduce disparities but may lead to unstable representation at leadership levels. Demonstrated how unbiased promotions in vertical systems can mitigate disparities across ranks, a counterintuitive yet powerful insight.
 
 ### NBA Points Prediction Model
-[Git](https://github.com/AbelG13/2025-NBA-Prediction-Model)
+[Repository](https://github.com/AbelG13/2025-NBA-Prediction-Model)
 - Building an end-to-end predictive modeling pipeline using nba_api to forecast individual player performance based on recent stats and matchup-specific context. Employing feature engineering techniques (e.g., squared transformations of core variables) to improve predictive power. The pipeline’s performance will be evaluated on 2025 NBA Playoff data.
 
 
