@@ -6,7 +6,7 @@ Technical Skills: Python, SQL, Spark, Java, R, Databricks, PowerBI, Tableau
 **Graduation:** *May 2026*
 
 ## Work Experience
-**Incoming Software Engineering Intern, Data Lake team @ Bank of America (_June 2025 - August 2025_)**
+**Incoming Software Engineering Intern, Data Lake Team @ Bank of America (_June 2025 - August 2025_)**
 
 **Data Science & Analytics Intern, Digital Threads Team @ John Deere (_May 2024 - August 2024_)**
 - Project 1: Tasked with optimizing transit times for a logistics network of over 30,000 suppliers. Conducted in-depth analysis of historical delivery data and implemented a model in Databricks using PySpark, leveraging quantile regression and a rules-based framework to recalibrate internal transit benchmarks. Achieved a 22% reduction in delivery delinquency. Developed a Power BI dashboard to enable real-time monitoring of performance metrics.
