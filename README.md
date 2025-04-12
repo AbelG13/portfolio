@@ -1,9 +1,9 @@
 # Undergraduate
 Technical Skills: Python, SQL, Spark, Java, R, Databricks, PowerBI, Tableau
 ## Education
-| Degree                             | Institution       | Graduation  |
-|-----------------------------------|-------------------|-------------|
-| B.S. Operations Research and Engineering | Cornell University | *May 2026*  |
+**Degree:** B.S. Operations Research and Engineering  
+**Institution:** Cornell University  
+**Graduation:** *May 2026*
 
 ## Work Experience
 **Incoming Software Engineering Intern, Data Lake team @ Bank of America (_June 2025 - August 2025_)**
