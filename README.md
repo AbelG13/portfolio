@@ -1,4 +1,15 @@
 # Undergraduate
+<!-- Button to reveal section -->
+<button onclick="toggleSection('education-section')">Show Education</button>
+
+<!-- Hidden education content -->
+<div id="education-section" style="display: none;">
+  <h2>Education</h2>
+  <p>Cornell University, B.S. in Operations Research & Engineering</p>
+  <p>Minor in Applied Mathematics</p>
+  <p>Expected Graduation: May 2026</p>
+</div>
+
 Technical Skills: Python, SQL, Spark, Java, R, Databricks, PowerBI, Tableau
 ## Education
 **Degree:** B.S. Operations Research and Engineering  
