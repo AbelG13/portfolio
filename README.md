@@ -1,8 +1,6 @@
 # Undergraduate
-<!-- Button to reveal section -->
 <button onclick="toggleSection('education-section')">Show Education</button>
 
-<!-- Hidden education content -->
 <div id="education-section" style="display: none;">
   <h2>Education</h2>
   <p>Cornell University, B.S. in Operations Research & Engineering</p>
@@ -44,3 +42,14 @@ Technical Skills: Python, SQL, Spark, Java, R, Databricks, PowerBI, Tableau
 - Building an end-to-end predictive modeling pipeline using nba_api to forecast individual player performance based on recent stats and matchup-specific context. Employing feature engineering techniques (e.g., squared transformations of core variables) to improve predictive power. The pipeline’s performance will be evaluated on 2025 NBA Playoff data.
 
 
+<script>
+  function toggleSection(id) {
+    const section = document.getElementById(id);
+    if (!section) return;
+
+    const isHidden = section.style.display === "none" || section.style.display === "";
+    section.style.display = isHidden ? "block" : "none";
+
+    console.log(`Toggled section ${id}: now ${isHidden ? 'visible' : 'hidden'}`);
+  }
+</script>
