@@ -1,14 +1,6 @@
 # Undergraduate
-<button onclick="toggleSection('education-section')">Show Education</button>
 
-<div id="education-section" style="display: none;">
-  <h2>Education</h2>
-  <p>Cornell University, B.S. in Operations Research & Engineering</p>
-  <p>Minor in Applied Mathematics</p>
-  <p>Expected Graduation: May 2026</p>
-</div>
-
-Technical Skills: Python, SQL, Spark, Java, R, Databricks, PowerBI, Tableau
+Technical Skills: Python, SQL, Spark, PyTorch, Java,  R, JavaScript, Databricks, Hadoop, PowerBI, Tableau, AWS
 ## Education
 **Degree:** B.S. Operations Research and Engineering  
 **Institution:** Cornell University  
@@ -39,17 +31,10 @@ Technical Skills: Python, SQL, Spark, Java, R, Databricks, PowerBI, Tableau
 
 ### NBA Points Prediction Model
 [Repository](https://github.com/AbelG13/2025-NBA-Prediction-Model)
-- Building an end-to-end predictive modeling pipeline using nba_api to forecast individual player performance based on recent stats and matchup-specific context. Employing feature engineering techniques (e.g., squared transformations of core variables) to improve predictive power. The pipeline’s performance will be evaluated on 2025 NBA Playoff data.
+- Built and completed an end-to-end predictive modeling pipeline using nba_api to forecast individual player performance based on recent stats and matchup-specific context. Transformed 10,000+ raw game log entries into 35 engineered features across 75 fields. Applied advanced feature engineering (e.g., squared transformations), and trained an XGBoost model with cross-validation and grid search, achieving an R² of 0.74.
 
+### NBA Lineups Website
+[Repository](https://github.com/AbelG13/nbalineups)
+🚧 In Progress 🚧
+- Building a multi-feature website that will provide users with interactive lineup building and in-depth analysis of lineup data.
 
-<script>
-  function toggleSection(id) {
-    const section = document.getElementById(id);
-    if (!section) return;
-
-    const isHidden = section.style.display === "none" || section.style.display === "";
-    section.style.display = isHidden ? "block" : "none";
-
-    console.log(`Toggled section ${id}: now ${isHidden ? 'visible' : 'hidden'}`);
-  }
-</script>
